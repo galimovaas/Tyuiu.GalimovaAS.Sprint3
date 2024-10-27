@@ -24,7 +24,7 @@ namespace Tyuiu.GalimovaAS.Sprint3.Task0.V22
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                                         *");
             Console.WriteLine("********************************************************************************************");
 
-            int value = 1/4 ;
+            int value = 0.25 ;
             int startValue = 1;
             int stopValue = 8;
 
