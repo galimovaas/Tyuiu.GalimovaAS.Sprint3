@@ -9,7 +9,7 @@ namespace Tyuiu.GalimovaAS.Sprint3.Task1.V9.Lib
             for (int i = startValue; i <= stopValue; i++)
             {
                 multSeries = multSeries * (Math.Pow((300 / (Math.Cos(value) + Math.Pow(value, startValue))), startValue));
-
+                startValue++;
             }
             return Math.Round(multSeries, 3);
         }   
